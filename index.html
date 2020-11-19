@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Your AgeGroup</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="d1">
+        <h1>Know Your AgeGroup</h1>
+        <table>
+            <tr>
+                <td>
+                  <h2>Enter Your Age:</h2>
+                </td>
+                <td>
+                    <input type="number" name="age" id="age" placeholder="Age" min="-1" max="122" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" id="btn" onclick="getData()">Submit</button>
+                </td>
+            </tr>
+        </table>
+        <h2 id="result"></h2>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
